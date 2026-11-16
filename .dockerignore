@@ -1,0 +1,42 @@
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Maven build output
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE configuration
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Docker files not required in build context
+docker-compose*.yml
+
+# Documentation
+README.md
+LICENSE
